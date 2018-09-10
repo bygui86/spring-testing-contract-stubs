@@ -1,0 +1,26 @@
+{
+  "id" : "ab48b961-eccc-4f4b-b353-56234961de4f",
+  "request" : {
+    "urlPath" : "/employees/name",
+    "method" : "GET",
+    "headers" : {
+      "Accept" : {
+        "matches" : "application/json.*"
+      }
+    },
+    "queryParameters" : {
+      "name" : {
+        "equalTo" : "Robert Martin"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Robert Martin\",\"id\":1}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "ab48b961-eccc-4f4b-b353-56234961de4f"
+}

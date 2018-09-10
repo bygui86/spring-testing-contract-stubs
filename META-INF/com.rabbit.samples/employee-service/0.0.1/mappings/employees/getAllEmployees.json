@@ -1,0 +1,21 @@
+{
+  "id" : "058aadaf-393f-4a82-a2f1-2c6733a06e23",
+  "request" : {
+    "url" : "/employees",
+    "method" : "GET",
+    "headers" : {
+      "Accept" : {
+        "matches" : "application/json.*"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "[{\"id\":1,\"name\":\"Robert Martin\"},{\"id\":2,\"name\":\"Martin Fowler\"},{\"id\":3,\"name\":\"Sam Newman\"},{\"id\":4,\"name\":\"Kent Beck\"}]",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "058aadaf-393f-4a82-a2f1-2c6733a06e23"
+}
