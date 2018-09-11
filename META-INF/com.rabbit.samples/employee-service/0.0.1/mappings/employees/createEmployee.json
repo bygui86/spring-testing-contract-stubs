@@ -1,0 +1,27 @@
+{
+  "id" : "ac68e17f-6612-4e86-8798-e9885a39b209",
+  "request" : {
+    "url" : "/employees",
+    "method" : "POST",
+    "headers" : {
+      "Accept" : {
+        "matches" : "application/json.*"
+      },
+      "Content-Type" : {
+        "matches" : "application/json.*"
+      }
+    },
+    "bodyPatterns" : [ {
+      "matchesJsonPath" : "$[?(@.['name'] == 'James Gosling')]"
+    } ]
+  },
+  "response" : {
+    "status" : 201,
+    "body" : "{\"name\":\"{{{jsonpath this '$.name'}}}\",\"id\":-103784241}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "ac68e17f-6612-4e86-8798-e9885a39b209"
+}

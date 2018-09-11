@@ -1,0 +1,26 @@
+{
+  "id" : "6d93412d-c8c0-436c-90c0-9fe87a7f73e7",
+  "request" : {
+    "urlPath" : "/employees/id",
+    "method" : "GET",
+    "headers" : {
+      "Accept" : {
+        "matches" : "application/json.*"
+      }
+    },
+    "queryParameters" : {
+      "id" : {
+        "equalTo" : "2"
+      }
+    }
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"Martin Fowler\",\"id\":2}",
+    "headers" : {
+      "Content-Type" : "application/json"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "6d93412d-c8c0-436c-90c0-9fe87a7f73e7"
+}

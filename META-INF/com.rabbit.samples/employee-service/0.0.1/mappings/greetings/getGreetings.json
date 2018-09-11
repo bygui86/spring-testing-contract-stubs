@@ -1,0 +1,13 @@
+{
+  "id" : "a45aa714-d939-4bf1-aca4-b5b73c944dc6",
+  "request" : {
+    "url" : "/",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "Greetings from employee-service ;)",
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "a45aa714-d939-4bf1-aca4-b5b73c944dc6"
+}

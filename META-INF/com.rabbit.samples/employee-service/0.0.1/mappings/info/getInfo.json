@@ -1,0 +1,16 @@
+{
+  "id" : "15930154-8aec-44d0-b9d8-8e4a3e104685",
+  "request" : {
+    "url" : "/info",
+    "method" : "GET"
+  },
+  "response" : {
+    "status" : 200,
+    "body" : "{\"name\":\"employee-service\",\"id\":1}",
+    "headers" : {
+      "Content-Type" : "application/json;charset=UTF-8"
+    },
+    "transformers" : [ "response-template" ]
+  },
+  "uuid" : "15930154-8aec-44d0-b9d8-8e4a3e104685"
+}
