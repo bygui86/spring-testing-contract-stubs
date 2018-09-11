@@ -1,21 +1,26 @@
 {
-  "id" : "0185c05d-c79e-4d90-81fc-4b7cbd91bb7d",
+  "id" : "ab48b961-eccc-4f4b-b353-56234961de4f",
   "request" : {
-    "url" : "/employees",
+    "urlPath" : "/employees/name",
     "method" : "GET",
     "headers" : {
       "Accept" : {
         "matches" : "application/json.*"
       }
+    },
+    "queryParameters" : {
+      "name" : {
+        "equalTo" : "Robert Martin"
+      }
     }
   },
   "response" : {
     "status" : 200,
-    "body" : "[{\"id\":1,\"name\":\"Robert Martin\"},{\"id\":2,\"name\":\"Martin Fowler\"},{\"id\":3,\"name\":\"Sam Newman\"},{\"id\":4,\"name\":\"Kent Beck\"}]",
+    "body" : "{\"name\":\"Robert Martin\",\"id\":1}",
     "headers" : {
       "Content-Type" : "application/json"
     },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "0185c05d-c79e-4d90-81fc-4b7cbd91bb7d"
+  "uuid" : "ab48b961-eccc-4f4b-b353-56234961de4f"
 }
