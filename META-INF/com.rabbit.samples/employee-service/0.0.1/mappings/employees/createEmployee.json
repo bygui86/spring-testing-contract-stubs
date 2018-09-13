@@ -1,5 +1,5 @@
 {
-  "id" : "beab64d3-fe4a-446c-b5e5-0313e92956bf",
+  "id" : "14803307-1f76-4a2b-b336-d41acae99aeb",
   "request" : {
     "url" : "/employees",
     "method" : "POST",
@@ -17,11 +17,11 @@
   },
   "response" : {
     "status" : 201,
-    "body" : "{\"name\":\"{{{jsonpath this '$.name'}}}\",\"id\":-136567936}",
+    "body" : "{\"name\":\"{{{jsonpath this '$.name'}}}\",\"id\":-66394711}",
     "headers" : {
       "Content-Type" : "application/json"
     },
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "beab64d3-fe4a-446c-b5e5-0313e92956bf"
+  "uuid" : "14803307-1f76-4a2b-b336-d41acae99aeb"
 }
