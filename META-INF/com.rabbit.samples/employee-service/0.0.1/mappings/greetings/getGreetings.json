@@ -1,5 +1,5 @@
 {
-  "id" : "9086abcc-1b9d-4d31-b8fc-c3751cf7071a",
+  "id" : "b41c8b6a-9f62-4a79-8bf5-182ffa7cdecf",
   "request" : {
     "url" : "/",
     "method" : "GET"
@@ -9,5 +9,5 @@
     "body" : "Greetings from employee-service ;)",
     "transformers" : [ "response-template" ]
   },
-  "uuid" : "9086abcc-1b9d-4d31-b8fc-c3751cf7071a"
+  "uuid" : "b41c8b6a-9f62-4a79-8bf5-182ffa7cdecf"
 }
