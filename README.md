@@ -1,12 +1,12 @@
 # Spring Testing sample project
-## Spring Cloud Contract stubs repository
+###### Spring Cloud Contract stubs repository
 
-
+## Descriptiom
 This is just a **support repository** to store generated stubs from the [spring-testing][spring-testing] project.
 
 ---
 
-## links
+## Links
 * [Pushing stubs to SCM][spring-cloud-contract-scm]
 * [SCM stub downloader][spring-cloud-contract-scm-down]
 * [spring-testing repo][spring-testing]
